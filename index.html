@@ -6,94 +6,191 @@
     <title>Portafolio Erick</title>
     <link rel="icon" type="imagenes/png" href="imagenes/logo.png">
     <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/e10372e087.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header" >
-        <div>
-            <figure class="logo" ><img src="imagenes/logo.png" width="200" height="200" alt=""></figure>
+    
+        <header class="header" >
+                <div class="container">
+                    <figure class="logo" >
+                        <img src="imagenes/logo.png" height="50" alt="">
+                    </figure>
+                    
+                    <nav class="menu">
+                        <ol>
+                            <li><a class="link" href="#portafolio">Portafolio</a></li>
+                            <li><a class="link" href="#eventos">Experiencia</a></li>
+                            <li><a class="link" href="#contacto">Trabajemos Juntos</a></li>
+                        </ol>
+                    </nav>
+                </div>
+        </header>
+        
+        <!-- aqui comienza la seccion de encabezado de la pagina -->
+        
+            <section class="hero">
+                <div class="container">
+                <h1>Hola! Soy <strong>Erick Alem&aacute;n</strong> <br> 
+                    <strong>Desarrollador Web</strong> <br> 
+                    con pasi&oacute;n por las nuevas <br>
+                     <strong>Tecnologias</strong>
+                </h1>
+                
+                <img class="hero-image" src="imagenes/S1.png" alt="imagen de Erick Aleman" width="500" height="300" >
+                </div>
+            </section>
+        
+        
+        <!-- aqui se declara la seccion del portafolio -->
+        <div class="container">
+            <section id="portafolio" class="portfolio" >
+                <h2><strong>Portafolio (Proyectos Destacados)</strong></h2>
+                <article class="project">
+                    <div class="project-details box">
+                        <h2 class="project-title">Platzi Video</h2> 
+                        <h6 class="project-course">React Native / React</h6>
+                        <p class="project-date"> <small><strong>Fecha:</strong> 25/03/2020</small> </p>
+                        <p class="project-url"> <small><strong>Puedes verlo en: </strong>www.platzi.com/native</small> </p>
+                        <p class="project-description">Desarollador Frontend con React native, fue el resultado de 3 meses de trabajo para crear aplicaciones con esta tecnologia</p>
+                    </div>
+                
+                    <div>
+                        <figure class="project-imageContainer">
+                            <img class="proyect-image" src="imagenes/reacnative.png" width="500" alt="">
+                        </figure>
+                    </div>
+                </article>
+            
+                <article class="project">
+                    <div class="project-details box">
+                        <h2 class="project-title">Platzi Video</h2> 
+                        <h6 class="project-course">React Native / React</h6>
+                        <p class="project-date"> <small><strong>Fecha:</strong> 25/03/2020</small> </p>
+                        <p class="project-url"> <small><strong>Puedes verlo en: </strong>www.platzi.com/native</small> </p>
+                        <p class="project-description">Desarollador Frontend con React native, fue el resultado de 3 meses de trabajo para crear aplicaciones con esta tecnologia</p>
+                    </div>
+                
+                    <div>
+                        <figure class="project-imageContainer">
+                            <img class="proyect-image" src="imagenes/reacnative.png" width="500" alt="">
+                        </figure>
+                    </div>
+                </article>
+            </section>
         </div>
-        <nav class="menu">
-            <ul>
-                <li><a class="link" href="#portafolio">Portafolio</a></li>
-                <li><a class="link" href="#eventos">Experiencia</a></li>
-                <li><a class="link" href="#contacto">Trabajemos Juntos</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <!-- aqui comienza la seccion de encabezado de la pagina -->
-    <section class="hero">
-        <h1>Hola! Soy <strong>Erick Alem&aacute;n Arag&oacute;n</strong> <br> 
-            <strong>Desarrollador Web</strong> <br> 
-            con pasi&oacute;n por las nuevas <br>
-             <strong>Tecnologias</strong>
-        </h1>
         
-        
-        
-    </section>
-    
-    <!-- aqui se declara la seccion del portafolio -->
-    <section id="portafolio" class="portfolio" >
-        <h2>Portafolio (Proyectos Destacados)</h2>
-        <article class="project flexbox">
-            <div class="project-details box">
-                <h3 class="project-title">Platzi Video</h3> 
-                <h6 class="project-course">React Native / React</h6>
-                <p class="project-date"> <small><strong>Fecha:</strong> 25/03/2020</small> </p>
-                <p class="project-url"> <small><strong>Puedes verlo en: </strong>www.platzi.com/native</small> </p>
-                <p class="project-description">Desarollador Frontend con React native, fue el resultado de 3 meses de trabajo para crear aplicaciones con esta tecnologia</p>
+        <!-- aqui se declara la seccion de los eventos -->
+        <div class="container">
+            <strong>
+                <h2 class="event-list-title">M&aacute;s sobre m&iacute; Experiencia</h2>
+            </strong>
+        </div>
+        <section id="eventos" class="event-list" >
+            <div class="container">
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="imagenes/S2.png" alt="" width="500">
+                    </figure>
+                        
+                    <div class="event-detail">
+                        <h3 class="event-title">Plaziconf M&eacute;xico 2018</h3>
+                        <p class="event-description">Platzi fue el resultado de 3 meses  de trabajo para crear la mejor para enseñar el funcionamiento de React</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank" >Ver Pl&aacute;tica</a>
+                    </div>
+                </article>
+                
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="imagenes/S2.png" alt="">
+                    </figure>
+                        
+                    <div class="event-detail">
+                        <h3 class="event-title">Plaziconf M&eacute;xico 2018</h3>
+                        <p class="event-description">Platzi fue el resultado de 3 meses  de trabajo para crear la mejor para enseñar el funcionamiento de React</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank" >Ver Pl&aacute;tica</a>
+                    </div>
+                </article>
+            
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="imagenes/S2.png" alt="">
+                    </figure>
+                        
+                    <div class="event-detail">
+                        <h3 class="event-title">Plaziconf M&eacute;xico 2018</h3>
+                        <p class="event-description">Platzi fue el resultado de 3 meses  de trabajo para crear la mejor para enseñar el funcionamiento de React</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank" >Ver Pl&aacute;tica</a>
+                    </div>
+                </article>
+                
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="imagenes/S2.png" alt="">
+                    </figure>
+                        
+                    <div class="event-detail">
+                        <h3 class="event-title">Plaziconf M&eacute;xico 2018</h3>
+                        <p class="event-description">Platzi fue el resultado de 3 meses  de trabajo para crear la mejor para enseñar el funcionamiento de React</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank" >Ver Pl&aacute;tica</a>
+                    </div>
+                </article>
             </div>
+        </section>
         
-        <figure class="project-imageContainer box">
-            <img src="imagenes/reacnative.png" height="500" alt="">
-        </figure>
-        </article>
-
-        <article class="project">
-            <div class="project-details">
-                <h3 class="project-title">Platzi Video</h3> 
-                <h6 class="project-course">React Native / React</h6>
-                <p class="project-date"> <small><strong>Fecha:</strong> 25/03/2020</small> </p>
-                <p class="project-url"> <small><strong>Puedes verlo en: </strong>www.platzi.com/native</small> </p>
-                <p class="project-description">Desarollador Frontend con React native, fue el resultado de 3 meses de trabajo para crear aplicaciones con esta tecnologia</p>
+        <!-- aqui se declarara el formulario de contacto -->
+        <section id="contacto"class="contact">
+            <div class="container">
+                <form action="/suscripcion/"class="form-email">
+                  <strong>
+                      <h3>Creamos algo juntos?</h3>
+                  </strong>
+                  <input type="text"placeholder=" D&eacute;jame tu email" id="email" />
+                  <button>
+                    Enviar
+                  </button>
+                </form>
+                <class="social">
+                    <a href="https://twitter.com"class="social-link twitter">
+                        <span style="font-size: 3em; color:#00acee;">
+                            <i class="fab fa-twitter"></i>
+                        </span>
+                    </a>
+                  
+                    <a href="https://facebook.com"class="social-link facebook">
+                        <span style="font-size: 3em; color:#3b5998;">
+                            <i class="fab fa-facebook"></i>
+                        </span>
+                    </a>
+                  
+                    <a href="https://github.com"class="social-link github">
+                        <span style="font-size: 3em; color:#0a0a0a;">
+                            <i class="fab fa-github-square"></i>
+                        </span>
+                    </a>
+                    
+                    <a href="https://instagram.com"class="social-link instagram">
+                        <span style="font-size: 3em; color:#ffffff;">
+                            <i class="fab fa-instagram-square"></i>
+                        </span>
+                    </a>
+                </div>
             </div>
+          </section>
         
-         
-            <figure class="project-imageContainer">
-                <img src="imagenes/reacnative.png" height="500" alt="">
-            </figure>
-        
-        </article>
-    </section>
-
-    <!-- aqui se declara la seccion de los eventos -->
-    <section id="eventos" >
-        <h2>M&aacute;s sobre m&iacute; Experiencia</h2>
-
-        <article class="event">
-            <figure class="event-imageContainer">
-                <img class="event-image" src="imagenes/S2.png" width="500" 300 alt="">
-            </figure>
-        </article>
-        
-        <h3 class="event-title">Plaziconf M&eacute;xico 2018</h3>
-        <p class="event-description">Platzi fue el resultado de 3 meses  de trabajo para crear la mejor para enseñar el funcionamiento de React</p>
-        <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank" >Ver Pl&aacute;tica</a>
-    </section>
-    
-    <!-- aqui se declarara el formulario de contacto -->
-    <section id="contacto" class="contact" >
-        <form action="/suscripcion/" class="form-email">
-            <h3></h3>
-            <input type="text" placeholder="D&eacute;jame tu email">
-            <button>Enviar</button>
-
-        </form>
-    </section>
-
-    <div class="examen"></div>
-
-    <footer class="footer">footer</footer>
-</body>
+        <footer class="footer">
+            <div class="container">
+                <div>
+                   <p>
+                        Curso de Desarrollo Web Online 2018 <img src="imagenes/platzi.png" alt="" height="80px">
+                    </p> 
+                </div>
+                
+                <div>
+                    <p>
+                        Designed with love <\3 by <a href="https://twiiter.com/thespianartist">@thespianartist</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
