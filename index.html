@@ -213,6 +213,12 @@
 
             ipad.addListener(validation)
 
+
+            if (ipad.matches) {
+        burguerButton.addEventListener('click', hideShow);
+        menu.addEventListener('click', hideShow); //solo para desaparecer el menu cuando hagan click sobre este
+    }
+
             function validation(event) {
                 if (event.matches){
                     burgerButton.addEventListener('click', hideShow)
